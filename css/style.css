@@ -1,0 +1,26 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+main {
+	margin:20px auto;
+	width:450px;
+}
+
+.container {
+	/* parent relatif */
+	position:relative;
+	height:300px;
+	border:1px solid black;
+	background-image:url('../images/field.jpg');
+}
+
+.ball {
+	/* enfat absolue */
+	position:absolute;
+	top:5px;
+	width:64px;
+	height:64px;
+	background-image:url('../images/ball2.png');
+}
